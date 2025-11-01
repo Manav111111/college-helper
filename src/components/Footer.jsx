@@ -23,14 +23,15 @@ const Footer = ({ onTextEnter, onTextLeave }) => {
             <div className="space-y-2">
               <Link to="/" className="text-gray-400 hover:text-white block">Home</Link>
               <Link to="/societies" className="text-gray-400 hover:text-white block">Societies</Link>
+               <Link to="/Contact" className="text-gray-400 hover:text-white block">Contact</Link>
               <Link to="/about" className="text-gray-400 hover:text-white block">About</Link>
             </div>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <p className="text-gray-400">campus@helper.edu</p>
-            <p className="text-gray-400">+1 (555) 123-4567</p>
+            <p className="text-gray-400">campus@helper.@gmail.com</p>
+            <p className="text-gray-400">+7827465966</p>
           </div>
         </div>
 

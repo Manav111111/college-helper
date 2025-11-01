@@ -16,6 +16,7 @@ import Notices from './pages/Notices';
 import About from './pages/About';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Contact from './pages/Contact';
 
 
 import './index.css';
@@ -113,6 +114,7 @@ function App() {
             <Route path="/study-material" element={<StudyMaterial {...commonProps} />} />
             <Route path="/notices" element={<Notices {...commonProps} />} />
             <Route path="/about" element={<About {...commonProps} />} />
+            <Route path="/contact" element={<Contact {...commonProps} />} />
             <Route 
               path="/login" 
               element={<Login onLogin={handleLogin} {...commonProps} />} 

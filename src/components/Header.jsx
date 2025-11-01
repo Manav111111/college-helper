@@ -11,6 +11,8 @@ const Header = ({ isLoggedIn, user, onLogout, onTextEnter, onTextLeave, onButton
     { name: 'Study Material', path: '/study-material' },
     { name: 'Notices', path: '/notices' },
     { name: 'About', path: '/about' },
+    { name: 'Contact', path: '/Contact' }
+    ,
   ];
 
   return (
