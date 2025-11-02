@@ -1,1 +1,5 @@
+Campus Helper is an AI-powered chatbot designed specifically for college campuses to assist students and staff with various informational needs. This chatbot intelligently remembers recent conversation history to provide accurate and context-aware responses. Users can ask about campus events, club activities, canteen and library timings, or even casual questions like "What's happening on campus today?" The chatbot features a user-friendly chat interface similar to WhatsApp, with smooth animations, message bubbles, and a sidebar to view chat history.
 
+On the backend, the system captures and stores recent messages to maintain multi-turn memory, enabling it to understand and respond based on prior interactions. It integrates with AI language models such as Gemini or OpenAI to generate relevant replies. Additionally, the backend includes Google OAuth authentication for secure signup and login.
+
+Overall, Campus Helper combines AI capabilities with backend logic and a polished frontend to create a smart, context-aware assistant tailored for college communities, enhancing campus engagement and information access instantly.
